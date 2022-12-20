@@ -3,6 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const path = require('path');
 const _ = require("lodash");
 
 const homeStartingContent = "Welcome to your daily journal, here you can post anything that you like, for example: how your day went, what all new things happened today etc. So what are you waiting for, go ahead and start posting.";
