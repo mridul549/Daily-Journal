@@ -16,7 +16,7 @@ let posts = [];
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname,'public')));
 
 app.get("/",function(req,res){
   res.render("home",{homeText: homeStartingContent,posts: posts});
