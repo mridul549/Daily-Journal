@@ -6,9 +6,9 @@ const ejs = require("ejs");
 const path = require('path');
 const _ = require("lodash");
 
-const homeStartingContent = "Welcome to your daily journal, here you can post anything that you like, for example: how your day went, what all new things happened today etc. So what are you waiting for, go ahead and start posting.";
+const homeStartingContent = "Welcome to voyager, here you can post anything that you like, from all the tech related articles, various coding doubts and all other various tech developements. ";
 const aboutContent = "This website was created by Mridul Verma for his personal use.";
-const contactContent = "You can contact him at mridulverma478@gmail.com"
+const contactContent = "You can contact us at mridulverma478@gmail.com"
 
 const app = express();
 let posts = [];
